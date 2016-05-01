@@ -2,8 +2,16 @@
 """list ipv4 addresses for all network hardware"""
 
 from subprocess import check_output
+import json
+
+items = []
 
 for srv in check_output(["networksetup", "-listAllNetworkServices"]).split("\n")[1:-1]:
     info = check_output(["networksetup", "-getinfo", srv]).split("\n")
     ip = next((x[12:] for x in info if x.startswith("IP address: ")), "not connected")
-    print "{:20}: {}".format(srv, ip)
+    item = {}
+    item['title'] = ip
+    item['badge'] = srv
+    items.append(item)
+
+print json.dumps(items)

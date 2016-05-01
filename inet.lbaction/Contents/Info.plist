@@ -12,8 +12,6 @@
 		<dict>
 			<key>LBKeepWindowActive</key>
 			<true/>
-			<key>LBResultType</key>
-			<string>string</string>
 			<key>LBReturnsResult</key>
 			<true/>
 			<key>LBScriptName</key>
@@ -27,7 +25,7 @@
 		<key>LBAuthor</key>
 		<string>Pete Richardson</string>
 		<key>LBEmail</key>
-		<string>peterichardson@yahoo.com</string>
+		<string>pete@peterichardson.com</string>
 		<key>LBTwitter</key>
 		<string>@peterichardson</string>
 	</dict>
