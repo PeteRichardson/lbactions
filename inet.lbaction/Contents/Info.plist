@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.peterichardson.LaunchBar.action.Inet</string>
+	<key>CFBundleName</key>
+	<string>inet</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>string</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>init</string>
+		</dict>
+	</dict>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBSummary</key>
+			<string>This action lists ipv4 addresses for all network hardware</string>
+		<key>LBAuthor</key>
+		<string>Pete Richardson</string>
+		<key>LBEmail</key>
+		<string>peterichardson@yahoo.com</string>
+		<key>LBTwitter</key>
+		<string>@peterichardson</string>
+	</dict>
+</dict>
+</plist>

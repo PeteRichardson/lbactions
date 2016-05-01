@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in *.lbaction ; do
+	echo "# installing: $i"
+    rsync -r --delete $i ~/Library/Application\ Support/LaunchBar/Actions
+done
